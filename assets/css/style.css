@@ -273,7 +273,7 @@ button:focus {
 	height: 100vh;
 	padding-top: 180px;
 	position: relative;
-	background: url(../images/hero/hero-bg.png);
+	background: url(../images/banner.png);
 	background-position: inherit;
 	background-size: cover;
 }
@@ -662,7 +662,7 @@ button:focus {
 
 .service-item.service-active {
 	margin-top: -30px;
-	background: transparent linear-gradient(240deg, #1d32cc 0%, #ee3163 100%) 0% 0% no-repeat padding-box;
+	background: transparent linear-gradient(45deg, #7d2e84 0%, #ec3132 100%) 0% 0% no-repeat padding-box;
 }
 
 .service-item.service-active .service-content h5,
@@ -814,7 +814,7 @@ button:focus {
 /****************************************************** */
 .discover-tools-section {
 	position: relative;
-	background: url(../images/tools/discover-tools-bg.png);
+	background: url(../images/discover-tools-bg.png);
 	background-position: center;
 	background-size: cover;
 	z-index: 1;
