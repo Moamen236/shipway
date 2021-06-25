@@ -62,10 +62,11 @@
 
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
-                                        <li class="current-menu-item"><a href="index.html">Home</a></li>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="service.html">Service</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a class="nav-link active-link " href="#home" data-scroll="home">Home</a></li>
+                                        <li><a class="nav-link" href="#service" data-scroll="service">Who we Are</a></li>
+                                        <li><a class="nav-link" href="#about" data-scroll="about">
+                                            What we do</a></li>
+                                        <li><a class="nav-link" href="#contact" data-scroll="contact">Contact</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -73,7 +74,7 @@
                         </div>
 
                         <div class="menu-btn">
-                            <a href="#" class="theme-btn">Download App</a>
+                            <a href="#" class="theme-btn">Track your order</a>
                         </div>
 
                     </div>
@@ -84,7 +85,7 @@
         <!-- END Main Header -->
 
         <!-- START Hero Section -->
-	    <section class="hero-section">
+	    <section id="home" class="box-main hero-section">
             <div class="hero-circle-shape">
                 <img src="assets/images/shape/hero-circle-shape.png" alt="Hero Circle Shape">
             </div>
@@ -101,9 +102,9 @@
                 <div class="row align-items-center">
                     <div class="col-lg-5">
                         <div class="hero-content">
-                            <h2>Best Landing Pages For App Landing</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <a href="service.html" class="theme-btn">Discover More</a>
+                            <h2>We are your Shipping Partner</h2>
+                            <p>The most safe and fat way to ship your products to your customers</p>
+                            <a href="service.html" class="theme-btn">Request Now</a>
                         </div>
                     </div>
                     <div class="col-lg-7">
@@ -116,17 +117,14 @@
 	    </section>
         <!-- END Hero Section -->
 
-        <div class="feature-and-funfact">
-            <!-- <div class="feature-shape-one">
-                <img src="assets/images/shape/feature-shape1.png" alt="Graph Shape One">
-            </div> -->
+        <!-- START Feature Section -->
+        <div id="about" class="box-main feature-and-funfact">
             <div class="feature-shape-two">
                 <img src="assets/images/shape/feature-shape2.png" alt="Graph Shape Two">
                 <div class="feature-shape-three">
                     <img src="assets/images/shape/feature-shape3.png" alt="Graph Shape Three">
                 </div>
             </div>
-            <!-- START Feature Section -->
             <section class="feature-section pt-100 rpt-80 pb-40 rpb-90">
     	        <div class="container">
     	            <div class="row align-items-center">
@@ -137,26 +135,12 @@
     	                </div>
     	                <div class="col-lg-6">
                             <div class="feature-content">
-                                <div class="section-heading mb-50">
+                                <div class="section-heading">
                                     <i class="flaticon-file"></i>
-                                    <span class="heading-title">Feature List</span>
-                                    <h2>Performance graph UX design</h2>
+                                    <span class="heading-title">Who We Ara</span>
                                 </div>
-                                <div class="feature-item">
-                                    <div class="icon-box">
-                                        <img src="assets/images/feature/app-icon1.png" alt="App Icon">
-                                    </div>
+                                <div class="feature-item">                                    
                                     <div class="content-box">
-                                        <h6>Get a Free App Trial</h6>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                                    </div>
-                                </div>
-                                <div class="feature-item">
-                                    <div class="icon-box">
-                                        <img src="assets/images/feature/app-icon2.png" alt="App Icon">
-                                    </div>
-                                    <div class="content-box">
-                                        <h6>Heigh Performance</h6>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
                                     </div>
                                 </div>
@@ -165,11 +149,12 @@
     	            </div>
     	        </div>
             </section>
-            <!-- END Feature Section -->
 	    </div>
+        <!-- END Feature Section -->
 
 
-        <div class="partner-and-service">
+        <!-- START Service Section -->
+        <div id="service" class="box-main partner-and-service">
             <div class="partner-shape">
                 <img src="assets/images/shape/partner-shape.png" alt="Partner Shape">
             </div>
@@ -177,13 +162,12 @@
             <div class="service-shape">
                 <img src="assets/images/shape/service-shape.png" alt="Service Shape">
             </div>
-            <!-- START Service Section -->
             <section class="service-section pt-120 pb-90 rpb-70">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-6 col-md-8">
                             <div class="section-heading text-center mb-80 rmb-40">
-                                <span class="heading-title">Services</span>
+                                <span class="heading-title">What we do</span>
                                 <h2>Xshapp Providing You Best Features</h2>
                             </div>
                         </div>
@@ -225,9 +209,8 @@
                     </div>
                 </div>
             </section>
-            <!-- END Service Section -->
         </div>
-
+        <!-- END Service Section -->
 	    
         <!-- START Discover Tools Section -->
         <section class="discover-tools-section pt-115 rpt-95">
@@ -241,152 +224,19 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-7 col-md-10">
                         <div class="section-heading text-center mb-60 rmb-40">
-                            <span class="heading-title">Tools</span>
                             <h2>Shopping All Over Egypt</h2>
                         </div>
                     </div>
                 </div>
                 <div class="tools-area">
-                    <div class="tool-one">
-                        <img src="assets/images/tools/tool1.png" alt="Tool Image One">
-                    </div>
-                    <div class="tool-two">
-                        <img src="assets/images/tools/tool2.png" alt="Tool Image Two">
-                    </div>
-                    <div class="tool-three">
-                        <img src="assets/images/tools/tool3.png" alt="Tool Image Three">
-                    </div>
-                    <div class="tool-four">
-                        <img src="assets/images/tools/tool4.png" alt="Tool Image Four">
-                    </div>
                     <img src="assets/images/Shpping-all-Over-Egypt.png" alt="Discover Tools Image">
                 </div>
             </div>
         </section>
         <!-- END Discover Tools Section -->
 
-        <!-- START Application Section
-        <section class="application-section pt-125 rpt-105 pb-120 rpb-100">
-            <div class="power-shape-one">
-                <img src="assets/images/shape/powerful-tools-shape1.png" alt="Powerful Tools Shape One">
-                <div class="power-shape-two">
-                    <img src="assets/images/shape/powerful-tools-shape2.png" alt="Powerful Tools Shape Two">
-                </div>
-            </div>
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="application-content">
-                            <div class="section-heading mb-40">
-                                <i class="flaticon-wall-clock"></i>
-                                <span class="heading-title">Best Application</span>
-                                <h2>Powerful Tools For Your Customers</h2>
-                            </div>
-                            <div class="application-tools mb-10">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="app-tool-item">
-                                            <div class="app-tool-icon">
-                                                <i class="flaticon-cone"></i>
-                                            </div>
-                                            <div class="app-tool-details">
-                                                <h6>Responsive<br> Design</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="app-tool-item">
-                                            <div class="app-tool-icon">
-                                                <i class="flaticon-easel"></i>
-                                            </div>
-                                            <div class="app-tool-details">
-                                                <h6>Awesome<br> Design</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-                            <a href="service.html" class="theme-btn">Discover More</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="application-image">
-                            <img src="assets/images/powerful-tools.png" alt="Application Image">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- END Application Section -->
-
-        <!-- START Testimonial Section -->
-        <section class="testimonial-section pt-90 rpt-70 pb-100 rpb-80">
-            <div class="testimonial-shape">
-                <img src="assets/images/shape/testimonial-shape.png" alt="Testimonial Shape">
-            </div>
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="testimonial-left-content">
-                            <div class="section-heading mb-20">
-                                <span class="heading-title">Testimonial</span>
-                                <h2>What Our client say</h2>
-                            </div>
-                            <h6>It was a great experience!</h6>
-                            <ul class="stars">
-                                <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
-                            </ul>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-                            <a href="contact.html" class="theme-btn">Contact Us</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="testimonial-right-carousel">
-                            <div class="testimonial-item">
-                                <h6>Jane Cooper</h6>
-                                <span>Ceo, Amera</span>
-                                <p>Excepteur sint occaecat non proident, sunt in culpa qui officia deserunt mollit id est laborum.</p>
-                            </div>
-                            <div class="testimonial-item">
-                                <h6>Jenifar</h6>
-                                <span>Engineer</span>
-                                <p>Excepteur sint occaecat non proident, sunt in culpa qui officia deserunt mollit id est laborum.</p>
-                            </div>
-                            <div class="testimonial-item">
-                                <h6>Nicki Royer</h6>
-                                <span>Project Manager</span>
-                                <p>Excepteur sint occaecat non proident, sunt in culpa qui officia deserunt mollit id est laborum.</p>
-                            </div>
-                            <div class="testimonial-item">
-                                <h6>Jane Cooper</h6>
-                                <span>Ceo, Amera</span>
-                                <p>Excepteur sint occaecat non proident, sunt in culpa qui officia deserunt mollit id est laborum.</p>
-                            </div>
-                            <div class="testimonial-item">
-                                <h6>Jenifar</h6>
-                                <span>Engineer</span>
-                                <p>Excepteur sint occaecat non proident, sunt in culpa qui officia deserunt mollit id est laborum.</p>
-                            </div>
-                            <div class="testimonial-item">
-                                <h6>Nicki Royer</h6>
-                                <span>Project Manager</span>
-                                <p>Excepteur sint occaecat non proident, sunt in culpa qui officia deserunt mollit id est laborum.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- END Testimonial Section -->
-
         <!-- START Contact Page Content -->
-        <section class="contact-page-content pb-50 rpb-100">
+        <section id="contact" class="box-main contact-page-content pt-50 pb-50 rpb-100">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
@@ -398,7 +248,7 @@
                                 </div>
                                 <div class="info-content">
                                     <h5>Our Location</h5>
-                                    <p>795 South Park Avenue, Long Island, Newyork, NY 94107.</p>
+                                    <p>16 Murad st.Giza, Egypt</p>
                                 </div>
                             </div>
                             <div class="info-item email-address">
@@ -407,8 +257,7 @@
                                 </div>
                                 <div class="info-content">
                                     <h5>Email Address</h5>
-                                    <p><a href="mailto:info@mydomain.com">info@mydomain.com</a></p>
-                                    <p><a href="mailto:yourbord@edu.com">yourbord@edu.com</a></p>
+                                    <p><a href="mailto:shipway.delivery@gmail.com">shipway.delivery@gmail.com</a></p>
                                 </div>
                             </div>
                             <div class="info-item phone-number">
@@ -417,8 +266,8 @@
                                 </div>
                                 <div class="info-content">
                                     <h5>Phone Number</h5>
-                                    <p><a href="callto:12345678901">+1 (234) 567 8901</a></p>
-                                    <p><a href="callto:12345678901">+1 (234) 567 8901</a></p>
+                                    <p><a href="callto:01117881444">01117881444</a></p>
+                                    <p><a href="callto:01126227788">01126227788</a></p>
                                 </div>
                             </div>
                         </div>
@@ -467,15 +316,14 @@
                         </div>
                         <!-- footer menu -->
                         <ul class="footer-menu order-1 order-md-2">
-                            <li><a href="#">Terms & Conditions</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </footer>
 	    <!-- END Main Footer -->
-
     </div>
     <!--End pagewrapper-->
 

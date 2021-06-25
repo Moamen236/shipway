@@ -232,4 +232,16 @@
           
       });
 
+      //Scroll one page
+    $('nav li a').click(function () {
+		$('html, body').animate({
+			scrollTop: $('#' + $(this).data('scroll')).offset().top
+		}, 1000);
+	});
+
+    $('a.nav-link').click(function(){
+        $('a.nav-link').removeClass('active-link')
+        $(this).addClass('active-link')
+    })
+
 }(jQuery));
