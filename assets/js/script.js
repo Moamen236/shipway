@@ -1,11 +1,3 @@
-/*
-|----------------------------------------------------------------------------
-  Name: Xshapp - Multipage App Landing HTML5 Template
-  Author: Envalab
-  Version: 1.0
-|----------------------------------------------------------------------------
-*/
-
 (function ($) {
     
     "use strict";
@@ -152,27 +144,7 @@
                }
            ]
       });
-    }
-
-    // Video Magnific Popup
-    if ($('.video-play').length) {
-        $('.video-play').magnificPopup({
-            type: 'video',
-        });
-    }        
-
-    // Contact Map
-    if ($("#map").length !== 0) {
-        var map = L.map("map", {
-          center: [40.712776, -74.005974],
-          zoom: 12,
-          zoomControl: false,
-          scrollWheelZoom: true
-        });
-
-        L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {}).addTo(map);
-    }
-        
+    }  
 
     /* ************************************************
        When document is resize, do 
