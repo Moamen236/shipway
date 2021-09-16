@@ -19,4 +19,5 @@
 
       mail($to, $subject, $message, $headers);
       var_dump($res);
+      header("location: ../index.html");
    }
